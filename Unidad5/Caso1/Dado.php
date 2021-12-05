@@ -24,7 +24,7 @@
 			public function getMaximo(){
 				return $this->maxNumDado;
 			}
-//Escribimos la función que permitirá "tirar el dado"
+//Escribimos la función que permitirá "tirar el dado" devolviendo un rant entre los números introducidos como máximo y mínimo
 			public function tirarDado(): int {
 				return rand($this->minNumDado, $this->maxNumDado);
 			}
